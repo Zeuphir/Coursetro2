@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    grid-template-columns: 50% auto;
+    
+}
+
+.col {
+    padding: .4em 1.3em;
+}
+
+.color-dark {
+    background:#00701a;
+    border-radius: 25px 0px 0px 0px;
+}
+
+.color-light {
+    background: #76d275;
+    border-radius: 0px 0px 25px 0px;
+}
+
+ol {
+    list-style-type: none;
+}

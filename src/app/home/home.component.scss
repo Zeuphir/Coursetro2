@@ -1,0 +1,60 @@
+.container{
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+.col {
+    padding: .4em 1.3em;
+}
+
+.color-dark {
+    background:#00701a;
+    border-radius: 25px 0px 0px 0px;
+}
+
+.color-light {
+    background: #76d275;
+    border-radius: 0px 0px 25px 0px;
+}
+
+input.txt {
+    border: 0;
+    padding: 1em;
+    width: 80%;
+    margin-bottom: 2em;
+    border-radius: 0px 15px 0px 15px;
+}
+input.btn {
+    border: 0;
+    display: block;
+    padding: 1em 3em;
+    background:rgb(151, 230, 120);
+    color: rgb(255, 255, 255);
+    margin-bottom: 1em;
+    cursor: pointer;
+    border-radius: 15px 0px 15px 0px;
+    transition: all 3s;
+}
+
+input.btn:hover{
+    background:  rgb(109, 168, 86);
+    color: rgb(255, 255, 255);
+    transform: rotate(360deg);
+    transition-duration: 900ms;
+}
+
+.life-container {
+    background: rgb(151, 230, 120);
+    padding: 0.5em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0px 15px 0px 15px;
+}
+
+.life-container:nth-child(even){
+    border-radius: 15px 0px 15px 0px;
+}
+
+.life-container:hover {
+    background:rgb(109, 168, 86);
+}

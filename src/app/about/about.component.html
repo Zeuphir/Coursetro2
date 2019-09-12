@@ -1,0 +1,37 @@
+
+<div class="container color-dark">
+    <div class="col">
+        <p>{{elias.first_name}} {{elias.last_name}}</p>
+    </div>
+
+</div>
+
+<div class="container color-light">
+    <div class="col">
+        <p>age:</p>
+    </div>
+    
+    <div class="col">
+        <p>{{elias.age}}</p>
+    </div>
+
+</div>
+
+<div class="container color-light">
+        <div class="col">
+            <p>bucket list:</p>
+        </div>
+        
+        <div class="col">
+             <p *ngFor="let goal of goals">{{goal}}</p>
+        </div>
+</div>
+
+<p>In the case you get lost click <a routerLink=""><strong>here</strong></a>.</p> 
+    
+<!--<a href="" (click)="sendMeHome()"><strong>Take me back</strong></a>. </p>
+<ul>
+    <li *ngFor="let goal of goals">{{goal}}</li>            
+</ul>
+
+        -->
